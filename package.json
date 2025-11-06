@@ -96,6 +96,7 @@
     "@ai-sdk/xai": "^2.0.16",
     "@biomejs/biome": "^1.9.4",
     "@dyad-sh/supabase-management-js": "v1.0.0",
+    "@electron-forge/shared-types": "^7.10.2",
     "@lexical/react": "^0.33.1",
     "@modelcontextprotocol/sdk": "^1.17.5",
     "@monaco-editor/react": "^4.7.0-rc.0",

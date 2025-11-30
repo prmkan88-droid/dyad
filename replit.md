@@ -40,6 +40,20 @@ Dyad is a free, local, open-source AI app builder built with Electron. It provid
 - Migrations in `drizzle/` directory
 - Schema defined in TypeScript
 
+## Workflow Setup
+- **Electron Dev Server**: Auto-starts when the project loads
+  - Runs `npm start` which launches Electron in dev mode
+  - Builds main process, preload bundles, and Vite dev servers
+  - Output type: Console (not a web server)
+
+## Important Notes
+Dyad is a **desktop application** (Electron), not a web app:
+- It runs as a native desktop program, not an HTTP web server
+- The Electron dev server runs in the console but cannot be previewed in the browser
+- For full development: use Replit's code editor to modify source, run tests, and lint
+- To use the built app: download from https://dyad.sh or build installers with `npm run make`
+
 ## Recent Changes
 - Project imported to Replit
-- Development environment configured
+- Development environment configured with auto-starting Electron Dev Server
+- Ready for local development and contributions
